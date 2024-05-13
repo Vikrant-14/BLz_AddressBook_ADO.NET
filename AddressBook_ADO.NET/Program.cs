@@ -22,8 +22,7 @@ namespace AddressBook_ADO.NET
         public static void Main()
         {
             ContactLayer contactLayer = new ContactLayer();
-            //contactLayer.SelectRecord();
-
+           
             int choice;
 
             while((choice = MenuDriven()) != 0)
